@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - Siesta (1.2.1):
+    - Siesta/Core (= 1.2.1)
+  - Siesta/Core (1.2.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Siesta (~> 1.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  Siesta: 880bfa377e0d05270bb4f71c4b53a019f2f432d0
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 54c047a23ab619de609e822f1a3a1c3d1f92f031
+
+COCOAPODS: 1.2.1
