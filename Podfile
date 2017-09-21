@@ -9,5 +9,6 @@ target 'PrivatBankATMs' do
   pod 'Siesta', '~> 1.0'
   pod 'SwiftyJSON'
   pod 'GoogleMaps'
+  pod 'KRProgressHUD'
 
 end

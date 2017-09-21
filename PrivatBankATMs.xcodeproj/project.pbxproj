@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		560A1949A400391DE9B147FE /* Pods_PrivatBankATMs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB68E394BE8FF22F63E5220D /* Pods_PrivatBankATMs.framework */; };
+		FD0C54BE1F731D0C003B80AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C54BD1F731D0C003B80AB /* DetailViewController.swift */; };
 		FD1789741F719F7A00A12F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1789731F719F7A00A12F2E /* AppDelegate.swift */; };
-		FD1789761F719F7A00A12F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1789751F719F7A00A12F2E /* ViewController.swift */; };
+		FD1789761F719F7A00A12F2E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1789751F719F7A00A12F2E /* MapViewController.swift */; };
 		FD1789791F719F7A00A12F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1789771F719F7A00A12F2E /* Main.storyboard */; };
 		FD17897B1F719F7A00A12F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD17897A1F719F7A00A12F2E /* Assets.xcassets */; };
 		FD17897E1F719F7A00A12F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17897C1F719F7A00A12F2E /* LaunchScreen.storyboard */; };
+		FD27BB641F73BAB1004F0DB6 /* SelectCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD27BB631F73BAB1004F0DB6 /* SelectCityViewController.swift */; };
+		FD959C851F71AC080025B055 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD959C841F71AC080025B055 /* APIManager.swift */; };
+		FD959C871F71B13A0025B055 /* Siesta+SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD959C861F71B13A0025B055 /* Siesta+SwiftyJSON.swift */; };
+		FD959C891F71B5E80025B055 /* CityATMsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD959C881F71B5E80025B055 /* CityATMsResponse.swift */; };
+		FD959C8B1F71B6C50025B055 /* ATMInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD959C8A1F71B6C50025B055 /* ATMInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09B7727E17D7DACCB58B9D71 /* Pods-PrivatBankATMs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivatBankATMs.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivatBankATMs/Pods-PrivatBankATMs.release.xcconfig"; sourceTree = "<group>"; };
 		B9299B02E7E170E464B1EEC8 /* Pods-PrivatBankATMs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivatBankATMs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivatBankATMs/Pods-PrivatBankATMs.debug.xcconfig"; sourceTree = "<group>"; };
 		BB68E394BE8FF22F63E5220D /* Pods_PrivatBankATMs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivatBankATMs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0C54BD1F731D0C003B80AB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FD1789701F719F7A00A12F2E /* PrivatBankATMs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivatBankATMs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1789731F719F7A00A12F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD1789751F719F7A00A12F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD1789751F719F7A00A12F2E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FD1789781F719F7A00A12F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD17897A1F719F7A00A12F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD17897D1F719F7A00A12F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD17897F1F719F7A00A12F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD27BB631F73BAB1004F0DB6 /* SelectCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCityViewController.swift; sourceTree = "<group>"; };
+		FD959C841F71AC080025B055 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FD959C861F71B13A0025B055 /* Siesta+SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Siesta+SwiftyJSON.swift"; sourceTree = "<group>"; };
+		FD959C881F71B5E80025B055 /* CityATMsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityATMsResponse.swift; sourceTree = "<group>"; };
+		FD959C8A1F71B6C50025B055 /* ATMInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATMInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FD0C54BC1F730FB4003B80AB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FD959C841F71AC080025B055 /* APIManager.swift */,
+				FD959C861F71B13A0025B055 /* Siesta+SwiftyJSON.swift */,
+				FD959C881F71B5E80025B055 /* CityATMsResponse.swift */,
+				FD959C8A1F71B6C50025B055 /* ATMInfo.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		FD1789671F719F7A00A12F2E = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				FD1789731F719F7A00A12F2E /* AppDelegate.swift */,
-				FD1789751F719F7A00A12F2E /* ViewController.swift */,
+				FD1789751F719F7A00A12F2E /* MapViewController.swift */,
+				FD0C54BD1F731D0C003B80AB /* DetailViewController.swift */,
+				FD27BB631F73BAB1004F0DB6 /* SelectCityViewController.swift */,
+				FD0C54BC1F730FB4003B80AB /* API */,
 				FD1789771F719F7A00A12F2E /* Main.storyboard */,
 				FD17897A1F719F7A00A12F2E /* Assets.xcassets */,
 				FD17897C1F719F7A00A12F2E /* LaunchScreen.storyboard */,
@@ -211,8 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1789761F719F7A00A12F2E /* ViewController.swift in Sources */,
+				FD959C851F71AC080025B055 /* APIManager.swift in Sources */,
+				FD27BB641F73BAB1004F0DB6 /* SelectCityViewController.swift in Sources */,
+				FD1789761F719F7A00A12F2E /* MapViewController.swift in Sources */,
+				FD959C8B1F71B6C50025B055 /* ATMInfo.swift in Sources */,
+				FD959C871F71B13A0025B055 /* Siesta+SwiftyJSON.swift in Sources */,
 				FD1789741F719F7A00A12F2E /* AppDelegate.swift in Sources */,
+				FD959C891F71B5E80025B055 /* CityATMsResponse.swift in Sources */,
+				FD0C54BE1F731D0C003B80AB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
