@@ -9,6 +9,8 @@
 import SwiftyJSON
 import Siesta
 
+// Вспомогательные методы для парсинга JSON при помощи SwiftyJSON
+
 let SwiftyJSONTransformer =
     ResponseContentTransformer(transformErrors: true)
     { JSON($0.content as AnyObject) }

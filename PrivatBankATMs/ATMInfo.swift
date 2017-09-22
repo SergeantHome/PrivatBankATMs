@@ -8,6 +8,7 @@
 
 import SwiftyJSON
 
+// Объект, содержащий информацию о банкомате
 struct ATMInfo {
     enum Locale: Int {
         case ru, ua, en

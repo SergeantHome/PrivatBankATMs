@@ -19,9 +19,10 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Форматируем и отображаем адрес банкомата
         addressLabel.text = atmInfo.fullAddress.first!?.replacingOccurrences(of: ",", with: ", ")
         placeLabel.text = atmInfo.place.first!
+        // Отображаем информацию о времени работы
         for (index, workTime) in atmInfo.workTime.enumerated() {
             workTimeLabels[index].text = workTime
         }

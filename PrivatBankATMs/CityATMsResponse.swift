@@ -8,6 +8,7 @@
 
 import SwiftyJSON
 
+// Корневой объект в ответе от сервера
 struct CityATMsResponse {
 //    let city: String?
     let devices: [ATMInfo]

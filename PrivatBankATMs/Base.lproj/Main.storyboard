@@ -264,7 +264,6 @@
                                     <constraint firstItem="n1O-wh-q7g" firstAttribute="leading" secondItem="hcq-Tp-lut" secondAttribute="leadingMargin" constant="8" id="gJ6-fI-QjV"/>
                                     <constraint firstItem="Dwr-30-7dE" firstAttribute="width" secondItem="n1O-wh-q7g" secondAttribute="width" id="nuy-ra-GDl"/>
                                     <constraint firstItem="8df-ca-Mdf" firstAttribute="top" secondItem="n1O-wh-q7g" secondAttribute="top" id="p7F-vh-Ff3"/>
-                                    <constraint firstItem="Dwr-30-7dE" firstAttribute="leading" secondItem="hcq-Tp-lut" secondAttribute="leading" constant="16" id="rK4-JJ-P4n"/>
                                     <constraint firstItem="sAY-mU-zbZ" firstAttribute="leading" secondItem="Dwr-30-7dE" secondAttribute="trailing" constant="8" id="ul2-xY-n9t"/>
                                     <constraint firstItem="8df-ca-Mdf" firstAttribute="top" secondItem="sAY-mU-zbZ" secondAttribute="bottom" constant="8" id="yJv-mb-goe"/>
                                 </constraints>
@@ -277,7 +276,7 @@
                             <constraint firstAttribute="trailing" secondItem="hcq-Tp-lut" secondAttribute="trailing" id="LkH-cN-aaI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sAY-mU-zbZ" secondAttribute="trailing" id="M7J-LH-mMn"/>
                             <constraint firstItem="hcq-Tp-lut" firstAttribute="top" secondItem="ZMd-LA-o9z" secondAttribute="top" id="jEH-3A-N8t"/>
-                            <constraint firstItem="Dwr-30-7dE" firstAttribute="leading" secondItem="ZMd-LA-o9z" secondAttribute="leadingMargin" id="v0K-nm-Acg"/>
+                            <constraint firstItem="Dwr-30-7dE" firstAttribute="leading" secondItem="ZMd-LA-o9z" secondAttribute="leading" constant="16" id="v0K-nm-Acg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ATM" id="d5y-QL-l0N"/>

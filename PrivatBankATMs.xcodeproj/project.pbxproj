@@ -19,6 +19,7 @@
 		FD959C871F71B13A0025B055 /* Siesta+SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD959C861F71B13A0025B055 /* Siesta+SwiftyJSON.swift */; };
 		FD959C891F71B5E80025B055 /* CityATMsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD959C881F71B5E80025B055 /* CityATMsResponse.swift */; };
 		FD959C8B1F71B6C50025B055 /* ATMInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD959C8A1F71B6C50025B055 /* ATMInfo.swift */; };
+		FD9670C01F7506D000E2F66B /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = FD9670BF1F7506D000E2F66B /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FD959C861F71B13A0025B055 /* Siesta+SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Siesta+SwiftyJSON.swift"; sourceTree = "<group>"; };
 		FD959C881F71B5E80025B055 /* CityATMsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityATMsResponse.swift; sourceTree = "<group>"; };
 		FD959C8A1F71B6C50025B055 /* ATMInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATMInfo.swift; sourceTree = "<group>"; };
+		FD9670BF1F7506D000E2F66B /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.MD; path = PrivatBankATMs/README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		FD1789671F719F7A00A12F2E = {
 			isa = PBXGroup;
 			children = (
+				FD9670BF1F7506D000E2F66B /* README.MD */,
 				FD1789721F719F7A00A12F2E /* PrivatBankATMs */,
 				FD1789711F719F7A00A12F2E /* Products */,
 				7ADA2ABD248E843DB167201B /* Pods */,
@@ -243,6 +246,7 @@
 				FD959C8B1F71B6C50025B055 /* ATMInfo.swift in Sources */,
 				FD959C871F71B13A0025B055 /* Siesta+SwiftyJSON.swift in Sources */,
 				FD1789741F719F7A00A12F2E /* AppDelegate.swift in Sources */,
+				FD9670C01F7506D000E2F66B /* README.MD in Sources */,
 				FD959C891F71B5E80025B055 /* CityATMsResponse.swift in Sources */,
 				FD0C54BE1F731D0C003B80AB /* DetailViewController.swift in Sources */,
 			);
