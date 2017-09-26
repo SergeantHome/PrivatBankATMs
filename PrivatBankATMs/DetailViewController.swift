@@ -20,8 +20,8 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
 
         // Форматируем и отображаем адрес банкомата
-        addressLabel.text = atmInfo.fullAddress.first!?.replacingOccurrences(of: ",", with: ", ")
-        placeLabel.text = atmInfo.place.first!
+        addressLabel.text = atmInfo.address
+        placeLabel.text = atmInfo.placeTitle
         // Отображаем информацию о времени работы
         for (index, workTime) in atmInfo.workTime.enumerated() {
             workTimeLabels[index].text = workTime

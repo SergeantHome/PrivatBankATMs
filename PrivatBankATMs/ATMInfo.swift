@@ -17,16 +17,30 @@ struct ATMInfo {
     let city: [String?]
     let fullAddress: [String?]
     let place: [String?]
-    let latitude: Double
-    let longitude: Double
+    let latitude: Double?
+    let longitude: Double?
     let workTime: [String?]
+    
+    var placeTitle: String? {
+        guard let defaultLocaleTitle = place.first else {
+            return nil
+        }
+        return defaultLocaleTitle
+    }
+    
+    var address: String? {
+        guard let defaultLocaleAddress = fullAddress.first else {
+            return nil
+        }
+        return defaultLocaleAddress?.replacingOccurrences(of: ",", with: ", ")
+    }
     
     init(json: JSON) {
         city = [json["cityRU"].string, json["cityUA"].string, json["cityEN"].string]
         fullAddress = [json["fullAddressRu"].string, json["fullAddressUa"].string, json["fullAddressEn"].string]
         place = [json["placeRu"].string, json["placeUa"].string, nil]
-        latitude = json["latitude"].doubleValue
-        longitude = json["longitude"].doubleValue
+        latitude = Double(json["latitude"].stringValue)
+        longitude = Double(json["longitude"].stringValue)
         workTime = [json["tw"]["mon"].string, json["tw"]["tue"].string, json["tw"]["wed"].string, json["tw"]["thu"].string,
                     json["tw"]["fri"].string, json["tw"]["sat"].string, json["tw"]["sun"].string, json["tw"]["hol"].string]
     }

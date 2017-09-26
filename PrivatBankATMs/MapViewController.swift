@@ -58,6 +58,8 @@ class MapViewController: UIViewController {
         }
     }
     
+    // MARK: - Actions
+    
     // Выбор города при нажатии на иконку в navigationBar
     @IBAction func selectCityButtonTapped(_ sender: Any) {
         selectCity()
@@ -67,6 +69,22 @@ class MapViewController: UIViewController {
     @IBAction func titleViewTapped(_ sender: Any) {
         selectCity()
     }
+    
+    // MARK: - API methods
+    
+    // Запрос информации от сервера о банкоматах для указанного города
+    func getATMInfo(cityName: String) {
+        KRProgressHUD.show(withMessage: "Loading...")
+        APIManager.shared.cityResource(cityName).load()
+            .onSuccess { [weak self] data in
+                self?.processResponse(data.content)
+            }
+            .onFailure { error in
+                self.showErrorMessage(error.userMessage)
+        }
+    }
+    
+    // MARK: - Helpers
     
     // Инициализируем titleView в navigationBar UILabel, и привязываем к нему UITapGestureRecognizer для отслеживания нажатий на title
     func titleView() -> UILabel {
@@ -93,15 +111,12 @@ class MapViewController: UIViewController {
         present(controller, animated: true)
     }
     
-    // Запрос информации от сервера о банкоматах для указанного города
+    // Call-back функция, вызываемая после выбора города в дочернем контроллере
     func afterSelectCity(_ selectedCityName: String) {
         guard selectedCityName != currentCityName else { return }
         
         currentCityName = selectedCityName
-        KRProgressHUD.show(withMessage: "Loading...")
-        APIManager.shared.cityResource(currentCityName).load().onSuccess { [weak self] data in
-            self?.processResponse(data.content)
-        }
+        getATMInfo(cityName: selectedCityName)
     }
     
     func processResponse(_ response: Any) {
@@ -110,12 +125,15 @@ class MapViewController: UIViewController {
             mapView.clear()
             var bounds = GMSCoordinateBounds()
             for atmInfo in atms.devices {
-                let position = CLLocationCoordinate2D(latitude: atmInfo.latitude, longitude: atmInfo.longitude)
+                guard let latitude = atmInfo.latitude, let longitude = atmInfo.longitude else {
+                    continue
+                }
+                let position = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
                 // Вычисляем границы области, где размещены банкоматы
                 bounds = bounds.includingCoordinate(position)
                 // Создаём маркер для банкомата на карте
                 let marker = GMSMarker(position: position)
-                marker.title = atmInfo.place.first!
+                marker.title = atmInfo.placeTitle
                 marker.snippet = "Детальнее >>"
                 marker.userData = atmInfo
                 marker.map = mapView
@@ -137,8 +155,27 @@ class MapViewController: UIViewController {
             }
             OperationQueue.main.addOperation { [weak self] in
                 // Скрываем индикатор работы и позиционируем карту, для отображения выбранного региона
-                KRProgressHUD.dismiss()
-                self?.mapView.animate(with: cameraUpdate)
+                KRProgressHUD.dismiss {
+                    self?.mapView.animate(with: cameraUpdate)
+                }
+            }
+        }
+    }
+    
+    // Показываем сообщение об ошибке.
+    func showErrorMessage(_ message: String) {
+        let alertController = UIAlertController(title: "Ошибка!", message: message, preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "Отмена", style: .cancel, handler: nil)
+        alertController.addAction(cancelAction)
+        let retryAction = UIAlertAction(title: "Повторить", style: .default) { [weak self] _ in
+            if let cityName = self?.currentCityName {
+                self?.getATMInfo(cityName: cityName)
+            }
+        }
+        alertController.addAction(retryAction)
+        OperationQueue.main.addOperation { [weak self] in
+            KRProgressHUD.dismiss {
+                self?.present(alertController, animated: true, completion: nil)
             }
         }
     }
