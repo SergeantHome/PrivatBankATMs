@@ -17,6 +17,8 @@ final class APIManager {
     private let service = Service(baseURL: "https://api.privatbank.ua/p24api")
     
     fileprivate init() {
+        Siesta.LogCategory.enabled = LogCategory.all
+
         service.configure {
             // Настраиваем парсинг JSON в объекты модели
             $0.pipeline[.parsing].add(SwiftyJSONTransformer, contentTypes: ["*/json"])

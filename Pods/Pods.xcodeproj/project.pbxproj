@@ -1,0 +1,1325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CA80A930C75EBEAB64BFA46BE61FD9 /* KRActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D309AA54A90688C0967936032B4778 /* KRActivityIndicatorView-dummy.m */; };
+		07B7F710203F03CF2AA5A099512C318E /* Siesta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C26708FC083C90DDEB0D1584B55A08F /* Siesta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFF9E0126464AB24A65912AEA861C79 /* Ω_Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A717F2A28D5D93F56D1292F45F46E7A5 /* Ω_Deprecations.swift */; };
+		172DA84908656089B22C56F37FAC8E70 /* PipelineProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B0B9EBD094168F98B7C7470F15AFD /* PipelineProcessing.swift */; };
+		1D825B1A65C6757D7912F664101FC64E /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FB8C9B4008D56183414EA1B44492C9 /* SwiftyJSON-dummy.m */; };
+		1D8A0D67D7965EA67E24795C03E4E2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154B51315509C1A54F58440EFEB85C9 /* Foundation.framework */; };
+		1FFA7E272CB7BBB71AEF8028CB2A12C2 /* Siesta-ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F53D3E031D06D6FEC87009D53BFDE /* Siesta-ObjC.swift */; };
+		225B814F7777061CCCB1DCB10B679029 /* RequestChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2025F22A9DB8E621C618018705016C /* RequestChaining.swift */; };
+		2585E9CECBA937D94E07D3A0A798151D /* KRProgressHUDIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1FCD1142E322577859ADA948B5667 /* KRProgressHUDIconType.swift */; };
+		35559892B3C7755EA77D81C3E8EC79E9 /* StandardTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B177FDB4E93F8C3E02924EA721135D4 /* StandardTransformers.swift */; };
+		37463D87504A0F65914C3447DE72C658 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E9CEEBB160C1EFF275E6414B7EB65 /* Logging.swift */; };
+		39355C518AD779F42A30C5FFFDB0320E /* OpenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B25ADD32BD30D9AB2D612E9A771BDC /* OpenEnum.swift */; };
+		3D2C0BF4039E5C4A5C947453BCC15B34 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1C1B712B6BEEF96A7BD7A38B4B133 /* Progress.swift */; };
+		3F35D6115B8D366C8103D09DF82D8CFE /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0C2B4172524032698BCF80194A3C8 /* Resource.swift */; };
+		4440E8D967C855109108EB548F0A6347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154B51315509C1A54F58440EFEB85C9 /* Foundation.framework */; };
+		47D7506B602EF18455C3AA668CD51358 /* Siesta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F856BE858DC5AE356CDF5D810184B7 /* Siesta-dummy.m */; };
+		51F5BBCA4559BFFAD0A141F831D2C632 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71238710393ADF1A595368396A67856 /* Service.swift */; };
+		59C4B6262D9BE85D61EC6EEE540CECA2 /* GCD+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BB31CBF3D634B01A4E76E5DEA021C /* GCD+Siesta.swift */; };
+		5E8A4903CFE27D3BF77A3F74CE459700 /* KRProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD2FBFDD41E9D9599E2D4D82085485 /* KRProgressHUDViewController.swift */; };
+		64D4590DEB65F811A837E1815F7B1D1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154B51315509C1A54F58440EFEB85C9 /* Foundation.framework */; };
+		65C36456AFF556AA76A3F54B2C98EBC5 /* RequestCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBCC8BCE774C038A55B594E71AC05E /* RequestCallbacks.swift */; };
+		6DAC151DE4CB814DE220BD09F1902E38 /* Collection+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FC19A28AA10F7BE6AD8E61D199D5B4 /* Collection+Siesta.swift */; };
+		6F5481D3F9C0E3A1E70319D9D5AFE25B /* String+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77532F6BBE0A106FCD966068D390404 /* String+Siesta.swift */; };
+		70B88ED34C8324943F6064E4B1D55F83 /* KRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F689FD97D43ECF132231E20DE00A523 /* KRProgressHUD.swift */; };
+		736DFA50C05C748A05E3BCC77B72AF9F /* Pods-PrivatBankATMs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AF17437F4B5D53F0919B30435470D8 /* Pods-PrivatBankATMs-dummy.m */; };
+		779FCE3D5B9EECAA018FA47B387ABAC3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B5C181CE8F9C2EA7EDE626C3C92340 /* SwiftyJSON.swift */; };
+		7F731F00C5990DF43434D9CB9132309F /* ResourceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB85566D305BDDEAD9C641B752A484E5 /* ResourceObserver.swift */; };
+		81972D0C86A120E879F04F7F0E0F3B88 /* PipelineConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757184C2A7111E07BFEB10525429B457 /* PipelineConfiguration.swift */; };
+		84D18B48A58A53A0F0F4D0A076CA584E /* Regex+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81ACD8080E96D904F184C484662734 /* Regex+Siesta.swift */; };
+		8A8600A8DAA6E262162E0E6DC916AFC6 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43472708383787A8D5B72B5A2107167E /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8638E19CFCB8E3D187E1C6B9C66B7B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397A2334554B1179D570AC14F95CFBA /* Configuration.swift */; };
+		92664741D031D8278A316BA7EFC84446 /* KRActivityIndicatorPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861F2EB1B64F34D49F35A5D8B0FD3DD /* KRActivityIndicatorPath.swift */; };
+		9F0AEDCA0767DCBD5571C0821C78BE58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154B51315509C1A54F58440EFEB85C9 /* Foundation.framework */; };
+		A3B91071C49AEB60CF8A938BB3F1E9E6 /* SiestaUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A867B3F1F7821CA7443625627B76C89 /* SiestaUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A46B646D371F2EC47EB560DD93F64E7E /* Networking-URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E3F20FA58379529887D99B99B658A /* Networking-URLSession.swift */; };
+		A60A3A17C310CDF33A1180CA0F283F6F /* RequestCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E7A0F826109C93653464B0CB0EA3F /* RequestCreation.swift */; };
+		A6CCD874ED3D0A3DC97A227A46C81E61 /* ResourceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F2AE92A804A1EB7AA4AF1B4785ECC4 /* ResourceNavigation.swift */; };
+		A847202E2A5BC261D2CE0043B1428B23 /* Pods-PrivatBankATMs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC489679FFC8FFD3219CB4C930B5ADC /* Pods-PrivatBankATMs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EDB87F0C461354354B7433612C071D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57007915FFCD05EFA59756B212CFDB /* RequestError.swift */; };
+		B58E77D5344991EDA7F5CDD3996D1A62 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C915C4D5F12EE0F73427FA81291BC2 /* Entity.swift */; };
+		B5CBD320A04D4B530796F4C90A3999E1 /* URL+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE500E05E171D00BEEA1162DC60024 /* URL+Siesta.swift */; };
+		BA4BA1DEB25E386D4F12E8E4A2FBD9A1 /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6F6EC2AF55D81E6A1C826805F412C /* ProgressTracker.swift */; };
+		BF9F5DD5575828A4F02E4C7F060DCDC8 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD949F28A700F59201C2EECB6ECE3E8B /* Request.swift */; };
+		C4A41D8C3CDA5230208D1142060DCD0F /* WeakCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91068F3E7A6D393D66122E47D02B8BE3 /* WeakCache.swift */; };
+		C65355EC2FBE46B56DB836350350A5D0 /* DebugFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09AB4D394507E65C216D13C9CC4025E /* DebugFormatting.swift */; };
+		CF4573A9B7EDCE424FBF8314449C276B /* ConfigurationPatternConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4033E98028FB3051E63848816C0D9E3 /* ConfigurationPatternConvertible.swift */; };
+		D392D371C9E6B7F543A80951F1B6F350 /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6AD4DC6D83A3FAE02578D52D5795B /* KRActivityIndicatorView.swift */; };
+		D5CA077D3EA04BE01E4C2EEFB102F4E1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDB16D98DCB09009F765EA07F8BA9EB /* Networking.swift */; };
+		D6DFF8373293B80838D65C7826631157 /* ResponseTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE9AE59EC0BEFB8FB0B257BEF4576C /* ResponseTransformer.swift */; };
+		D8A3CE3B899DAF436187267CE3488713 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E38B8AF46AE687CE2F2AC69C8BD5C6 /* NetworkRequest.swift */; };
+		DCE62488C7DA618A462A6EB4DB0366D1 /* EntityCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FF645382764832AFD0784D6BC36FA /* EntityCache.swift */; };
+		DF4BA74A59835882F643F9EB9279EABA /* KRProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8366ADD7F749FA99E67E78750CA0EE6A /* KRProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB24D72F153D53FF2F11CD647F04840 /* Siesta.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E9BE3CB7BAF79B358A98273E421008 /* Siesta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6FCCCA78904777BFE4E5F45CB7D106E /* InnerKRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2350C7758D77E0CAA9A4D2970AAAD10 /* InnerKRProgressHUD.swift */; };
+		EA7DBE3CBE4BB064DEE23907B7B7E55A /* KRActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88CD06D7748602F5E464390FC5308B /* KRActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE1FD5F21DD80796C728BBEE57387F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7154B51315509C1A54F58440EFEB85C9 /* Foundation.framework */; };
+		ECE957D50D64C19409B99E2FDBDEC9AC /* KRActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393AB3FBFD695A606788AA2B416F3F1 /* KRActivityIndicatorView.framework */; };
+		EF31DEF966B6036D2D6C844979432D4D /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D088E50755174B99734489F13596 /* KRActivityIndicatorViewStyle.swift */; };
+		F70DA6843A07C52AC6B68B298DB337A6 /* ARC+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61F7DB7FD58A115B65010619BEF166A /* ARC+Siesta.swift */; };
+		FD3DE89FA8246E14773FED5C88EAEE2E /* KRProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F72F7737FFD35DE566DBDA2FE5833E /* KRProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37B8F088BA0427E640C660B9318647B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4AED8E7F0E8047550BDB01102B0913;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		4D85F62F546A4C28AC18E01AEB8FFCF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF6426868E6CA9AA6D5A4C0BAF80A9F;
+			remoteInfo = KRProgressHUD;
+		};
+		6B26EBCEDA05D936324BDD23EF867E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B249C0B2794F97A7C4BB57DB137BE5F;
+			remoteInfo = SwiftyJSON;
+		};
+		6FBE22014D92753C04038D9522507DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4AED8E7F0E8047550BDB01102B0913;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		85AEAA2B51F3B5D3F68A88EEB02A8655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3A52C65199FE71240687AF4A7D248A;
+			remoteInfo = Siesta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0007C6A688DA4E0BA7578E24A04D70D7 /* Pods-PrivatBankATMs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivatBankATMs.debug.xcconfig"; sourceTree = "<group>"; };
+		0412D088E50755174B99734489F13596 /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
+		08E9DA4CDA7F9A8AAB66FF34FC3301D1 /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		0B1FF645382764832AFD0784D6BC36FA /* EntityCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EntityCache.swift; path = Source/Siesta/EntityCache.swift; sourceTree = "<group>"; };
+		0B6E7A0F826109C93653464B0CB0EA3F /* RequestCreation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCreation.swift; path = Source/Siesta/Request/RequestCreation.swift; sourceTree = "<group>"; };
+		0C72B77909DD8581C076A77FC769A5E9 /* Pods-PrivatBankATMs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivatBankATMs-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CD6F6EC2AF55D81E6A1C826805F412C /* ProgressTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressTracker.swift; path = Source/Siesta/Request/ProgressTracker.swift; sourceTree = "<group>"; };
+		114BB31CBF3D634B01A4E76E5DEA021C /* GCD+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GCD+Siesta.swift"; path = "Source/Siesta/Support/GCD+Siesta.swift"; sourceTree = "<group>"; };
+		142E9CEEBB160C1EFF275E6414B7EB65 /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Source/Siesta/Support/Logging.swift; sourceTree = "<group>"; };
+		1864BCE988E3CA399D6B4589F8C3783C /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		2031AC27D650A6DFC1DF7D70F22A5831 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220F1772C0DAB8AB432889F6220642BA /* Pods-PrivatBankATMs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrivatBankATMs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		249BC264F40B2BA4A05AAC3B72F8F9AC /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FBCC8BCE774C038A55B594E71AC05E /* RequestCallbacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCallbacks.swift; path = Source/Siesta/Request/RequestCallbacks.swift; sourceTree = "<group>"; };
+		26EF99C01DECBD1C87BC5FDE16BCB6BE /* Siesta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Siesta.xcconfig; sourceTree = "<group>"; };
+		31A2DBFD4AFBEDD5BF38A0E9B164ED81 /* KRProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F856BE858DC5AE356CDF5D810184B7 /* Siesta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Siesta-dummy.m"; sourceTree = "<group>"; };
+		3397A2334554B1179D570AC14F95CFBA /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Siesta/Configuration.swift; sourceTree = "<group>"; };
+		3C547B7DE30050473D23E9AA974E11F8 /* KRProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KRProgressHUD.modulemap; sourceTree = "<group>"; };
+		43472708383787A8D5B72B5A2107167E /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		453D6F2F6A7F51DCD827BD619C23D838 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		47FC19A28AA10F7BE6AD8E61D199D5B4 /* Collection+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Siesta.swift"; path = "Source/Siesta/Support/Collection+Siesta.swift"; sourceTree = "<group>"; };
+		49C915C4D5F12EE0F73427FA81291BC2 /* Entity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = Source/Siesta/Entity.swift; sourceTree = "<group>"; };
+		4B177FDB4E93F8C3E02924EA721135D4 /* StandardTransformers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardTransformers.swift; path = Source/Siesta/Pipeline/StandardTransformers.swift; sourceTree = "<group>"; };
+		4C26708FC083C90DDEB0D1584B55A08F /* Siesta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-umbrella.h"; sourceTree = "<group>"; };
+		4CA6132A41697DED8696583F246F590C /* Siesta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Siesta.modulemap; sourceTree = "<group>"; };
+		4DB2CC82697D48862B0F9C119F2E17E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58BCC8C70A2F8610D6C56EEBBCA76676 /* Siesta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Siesta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE1DE2579644BE16CB5139859C4D7FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F689FD97D43ECF132231E20DE00A523 /* KRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUD.swift; path = KRProgressHUD/Classes/KRProgressHUD.swift; sourceTree = "<group>"; };
+		613A8BB443CAB3634247C4AC3614B72F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		65CAAF297AD9ED223ED5673C82C4D5D2 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		6A57007915FFCD05EFA59756B212CFDB /* RequestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestError.swift; path = Source/Siesta/RequestError.swift; sourceTree = "<group>"; };
+		6A88CD06D7748602F5E464390FC5308B /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		6BF0C2B4172524032698BCF80194A3C8 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Source/Siesta/Resource/Resource.swift; sourceTree = "<group>"; };
+		6CD4EE511859EA231337CC9468C17ACD /* Pods-PrivatBankATMs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivatBankATMs.release.xcconfig"; sourceTree = "<group>"; };
+		6FC1C1B712B6BEEF96A7BD7A38B4B133 /* Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Progress.swift; path = Source/Siesta/Support/Progress.swift; sourceTree = "<group>"; };
+		7154B51315509C1A54F58440EFEB85C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		757184C2A7111E07BFEB10525429B457 /* PipelineConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineConfiguration.swift; path = Source/Siesta/Pipeline/PipelineConfiguration.swift; sourceTree = "<group>"; };
+		772E3F20FA58379529887D99B99B658A /* Networking-URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking-URLSession.swift"; path = "Source/Siesta/Networking-URLSession.swift"; sourceTree = "<group>"; };
+		7B2025F22A9DB8E621C618018705016C /* RequestChaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestChaining.swift; path = Source/Siesta/Request/RequestChaining.swift; sourceTree = "<group>"; };
+		7D7FA189AB87A650C5524606074CDFB1 /* KRActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		8328396D720B22ED2DE20FD1F0F9118D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8366ADD7F749FA99E67E78750CA0EE6A /* KRProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		90E38B8AF46AE687CE2F2AC69C8BD5C6 /* NetworkRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkRequest.swift; path = Source/Siesta/Request/NetworkRequest.swift; sourceTree = "<group>"; };
+		91068F3E7A6D393D66122E47D02B8BE3 /* WeakCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakCache.swift; path = Source/Siesta/Support/WeakCache.swift; sourceTree = "<group>"; };
+		9393AB3FBFD695A606788AA2B416F3F1 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974970778846DE5CB778E842DD31120E /* Pods-PrivatBankATMs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PrivatBankATMs.modulemap"; sourceTree = "<group>"; };
+		9A867B3F1F7821CA7443625627B76C89 /* SiestaUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SiestaUI.h; path = Source/Siesta/Support/SiestaUI.h; sourceTree = "<group>"; };
+		9DE1FCD1142E322577859ADA948B5667 /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDIconType.swift; path = KRProgressHUD/Classes/KRProgressHUDIconType.swift; sourceTree = "<group>"; };
+		9DF6AD4DC6D83A3FAE02578D52D5795B /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
+		9E2BD9D49DF1875BAC05D69E8ED0CE8C /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		A71238710393ADF1A595368396A67856 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Source/Siesta/Service.swift; sourceTree = "<group>"; };
+		A717F2A28D5D93F56D1292F45F46E7A5 /* Ω_Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ω_Deprecations.swift"; path = "Source/Siesta/Support/Ω_Deprecations.swift"; sourceTree = "<group>"; };
+		A8F72F7737FFD35DE566DBDA2FE5833E /* KRProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		A9F93F356E403FA8AD60517C0A36B7B5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA79B9DDAC8E5AFDE0C8FD0575692B43 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		AB07F347901A3D6E1F16BB2F468EC8B3 /* Pods-PrivatBankATMs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrivatBankATMs-resources.sh"; sourceTree = "<group>"; };
+		AC0713F520BEAC55550BF2FE44EE6D26 /* KRProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.xcconfig; sourceTree = "<group>"; };
+		ADC489679FFC8FFD3219CB4C930B5ADC /* Pods-PrivatBankATMs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrivatBankATMs-umbrella.h"; sourceTree = "<group>"; };
+		B0B25ADD32BD30D9AB2D612E9A771BDC /* OpenEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenEnum.swift; path = Source/Siesta/Support/OpenEnum.swift; sourceTree = "<group>"; };
+		B2350C7758D77E0CAA9A4D2970AAAD10 /* InnerKRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerKRProgressHUD.swift; path = KRProgressHUD/Classes/InnerKRProgressHUD.swift; sourceTree = "<group>"; };
+		B4D309AA54A90688C0967936032B4778 /* KRActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		B74266FDFF7AD64EF33B5262203B318E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77532F6BBE0A106FCD966068D390404 /* String+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Siesta.swift"; path = "Source/Siesta/Support/String+Siesta.swift"; sourceTree = "<group>"; };
+		BB6BC10EFF5AE7C5A3A69699855B5449 /* Siesta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-prefix.pch"; sourceTree = "<group>"; };
+		BB81ACD8080E96D904F184C484662734 /* Regex+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Regex+Siesta.swift"; path = "Source/Siesta/Support/Regex+Siesta.swift"; sourceTree = "<group>"; };
+		BCDB16D98DCB09009F765EA07F8BA9EB /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Source/Siesta/Networking.swift; sourceTree = "<group>"; };
+		BD949F28A700F59201C2EECB6ECE3E8B /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Siesta/Request/Request.swift; sourceTree = "<group>"; };
+		BEEE500E05E171D00BEEA1162DC60024 /* URL+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Siesta.swift"; path = "Source/Siesta/Support/URL+Siesta.swift"; sourceTree = "<group>"; };
+		C1F2AE92A804A1EB7AA4AF1B4785ECC4 /* ResourceNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceNavigation.swift; path = Source/Siesta/Resource/ResourceNavigation.swift; sourceTree = "<group>"; };
+		C3B5C181CE8F9C2EA7EDE626C3C92340 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		C4033E98028FB3051E63848816C0D9E3 /* ConfigurationPatternConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationPatternConvertible.swift; path = Source/Siesta/ConfigurationPatternConvertible.swift; sourceTree = "<group>"; };
+		C7DD2FBFDD41E9D9599E2D4D82085485 /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDViewController.swift; path = KRProgressHUD/Classes/KRProgressHUDViewController.swift; sourceTree = "<group>"; };
+		D12CF14C61CA861C43634146024A97E8 /* Pods-PrivatBankATMs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrivatBankATMs-frameworks.sh"; sourceTree = "<group>"; };
+		D4E9BE3CB7BAF79B358A98273E421008 /* Siesta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Siesta.h; path = Source/Siesta/Support/Siesta.h; sourceTree = "<group>"; };
+		D5AF17437F4B5D53F0919B30435470D8 /* Pods-PrivatBankATMs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrivatBankATMs-dummy.m"; sourceTree = "<group>"; };
+		D61F7DB7FD58A115B65010619BEF166A /* ARC+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ARC+Siesta.swift"; path = "Source/Siesta/Support/ARC+Siesta.swift"; sourceTree = "<group>"; };
+		D7D51C5D044E1720616238EDC3A2CC52 /* Pods_PrivatBankATMs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivatBankATMs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D861F2EB1B64F34D49F35A5D8B0FD3DD /* KRActivityIndicatorPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorPath.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorPath.swift; sourceTree = "<group>"; };
+		DB85566D305BDDEAD9C641B752A484E5 /* ResourceObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceObserver.swift; path = Source/Siesta/Resource/ResourceObserver.swift; sourceTree = "<group>"; };
+		E04F53D3E031D06D6FEC87009D53BFDE /* Siesta-ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Siesta-ObjC.swift"; path = "Source/Siesta/Support/Siesta-ObjC.swift"; sourceTree = "<group>"; };
+		E9CE9AE59EC0BEFB8FB0B257BEF4576C /* ResponseTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseTransformer.swift; path = Source/Siesta/Pipeline/ResponseTransformer.swift; sourceTree = "<group>"; };
+		F09AB4D394507E65C216D13C9CC4025E /* DebugFormatting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugFormatting.swift; path = Source/Siesta/Support/DebugFormatting.swift; sourceTree = "<group>"; };
+		F19B0B9EBD094168F98B7C7470F15AFD /* PipelineProcessing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineProcessing.swift; path = Source/Siesta/Pipeline/PipelineProcessing.swift; sourceTree = "<group>"; };
+		F2A2461B91C7631CFE03FC85DD7B6612 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F861CD49D944FEB14E7CC54E415B3471 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		F8FB8C9B4008D56183414EA1B44492C9 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		FEDD13421BE9ADF7328442048576D6B5 /* KRProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D4FB67F495F506C29A63AA80CCFB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE1FD5F21DD80796C728BBEE57387F2 /* Foundation.framework in Frameworks */,
+				ECE957D50D64C19409B99E2FDBDEC9AC /* KRActivityIndicatorView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7774E9FB6087C65098A1A4868EAD7F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0AEDCA0767DCBD5571C0821C78BE58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D76057A3D5B2214266640A8F8B33EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D4590DEB65F811A837E1815F7B1D1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C090CA465F69007F361E8B1F4B816A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4440E8D967C855109108EB548F0A6347 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8F10F8F53AAC16A8AA56F1F13623EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8A0D67D7965EA67E24795C03E4E2D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A11959DF94C0BEBE2E930338DD018EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2A2461B91C7631CFE03FC85DD7B6612 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0EC26364CD1AB7E4CCBBFE4C66EEE518 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D61F7DB7FD58A115B65010619BEF166A /* ARC+Siesta.swift */,
+				47FC19A28AA10F7BE6AD8E61D199D5B4 /* Collection+Siesta.swift */,
+				3397A2334554B1179D570AC14F95CFBA /* Configuration.swift */,
+				C4033E98028FB3051E63848816C0D9E3 /* ConfigurationPatternConvertible.swift */,
+				F09AB4D394507E65C216D13C9CC4025E /* DebugFormatting.swift */,
+				49C915C4D5F12EE0F73427FA81291BC2 /* Entity.swift */,
+				0B1FF645382764832AFD0784D6BC36FA /* EntityCache.swift */,
+				114BB31CBF3D634B01A4E76E5DEA021C /* GCD+Siesta.swift */,
+				142E9CEEBB160C1EFF275E6414B7EB65 /* Logging.swift */,
+				BCDB16D98DCB09009F765EA07F8BA9EB /* Networking.swift */,
+				772E3F20FA58379529887D99B99B658A /* Networking-URLSession.swift */,
+				90E38B8AF46AE687CE2F2AC69C8BD5C6 /* NetworkRequest.swift */,
+				B0B25ADD32BD30D9AB2D612E9A771BDC /* OpenEnum.swift */,
+				757184C2A7111E07BFEB10525429B457 /* PipelineConfiguration.swift */,
+				F19B0B9EBD094168F98B7C7470F15AFD /* PipelineProcessing.swift */,
+				6FC1C1B712B6BEEF96A7BD7A38B4B133 /* Progress.swift */,
+				0CD6F6EC2AF55D81E6A1C826805F412C /* ProgressTracker.swift */,
+				BB81ACD8080E96D904F184C484662734 /* Regex+Siesta.swift */,
+				BD949F28A700F59201C2EECB6ECE3E8B /* Request.swift */,
+				24FBCC8BCE774C038A55B594E71AC05E /* RequestCallbacks.swift */,
+				7B2025F22A9DB8E621C618018705016C /* RequestChaining.swift */,
+				0B6E7A0F826109C93653464B0CB0EA3F /* RequestCreation.swift */,
+				6A57007915FFCD05EFA59756B212CFDB /* RequestError.swift */,
+				6BF0C2B4172524032698BCF80194A3C8 /* Resource.swift */,
+				C1F2AE92A804A1EB7AA4AF1B4785ECC4 /* ResourceNavigation.swift */,
+				DB85566D305BDDEAD9C641B752A484E5 /* ResourceObserver.swift */,
+				E9CE9AE59EC0BEFB8FB0B257BEF4576C /* ResponseTransformer.swift */,
+				A71238710393ADF1A595368396A67856 /* Service.swift */,
+				D4E9BE3CB7BAF79B358A98273E421008 /* Siesta.h */,
+				E04F53D3E031D06D6FEC87009D53BFDE /* Siesta-ObjC.swift */,
+				9A867B3F1F7821CA7443625627B76C89 /* SiestaUI.h */,
+				4B177FDB4E93F8C3E02924EA721135D4 /* StandardTransformers.swift */,
+				B77532F6BBE0A106FCD966068D390404 /* String+Siesta.swift */,
+				BEEE500E05E171D00BEEA1162DC60024 /* URL+Siesta.swift */,
+				91068F3E7A6D393D66122E47D02B8BE3 /* WeakCache.swift */,
+				A717F2A28D5D93F56D1292F45F46E7A5 /* Ω_Deprecations.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		24560CB8988EC58A7855E3F9E7E2E7B0 /* Siesta */ = {
+			isa = PBXGroup;
+			children = (
+				0EC26364CD1AB7E4CCBBFE4C66EEE518 /* Core */,
+				69B286927B2E903826005ADD28C93B79 /* Support Files */,
+			);
+			path = Siesta;
+			sourceTree = "<group>";
+		};
+		3DF8B22E6E5B1CB1EE8490F5BCAF6B3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F861CD49D944FEB14E7CC54E415B3471 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		493E9BA99D68CB0E234689891E1E32EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249BC264F40B2BA4A05AAC3B72F8F9AC /* KRActivityIndicatorView.framework */,
+				31A2DBFD4AFBEDD5BF38A0E9B164ED81 /* KRProgressHUD.framework */,
+				D7D51C5D044E1720616238EDC3A2CC52 /* Pods_PrivatBankATMs.framework */,
+				58BCC8C70A2F8610D6C56EEBBCA76676 /* Siesta.framework */,
+				A9F93F356E403FA8AD60517C0A36B7B5 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8C35F3FED3C386630C94ACB2116C69 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7154B51315509C1A54F58440EFEB85C9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5006667444B595E3DB591FA6F20E499A /* KRProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B2350C7758D77E0CAA9A4D2970AAAD10 /* InnerKRProgressHUD.swift */,
+				5F689FD97D43ECF132231E20DE00A523 /* KRProgressHUD.swift */,
+				9DE1FCD1142E322577859ADA948B5667 /* KRProgressHUDIconType.swift */,
+				C7DD2FBFDD41E9D9599E2D4D82085485 /* KRProgressHUDViewController.swift */,
+				7D9C0169BD6FC93BA9A8820B1EE95280 /* Support Files */,
+			);
+			path = KRProgressHUD;
+			sourceTree = "<group>";
+		};
+		5018116F86B16BED82A5BC43C95F2C3F /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				8C49BC28CDB39BCD05CFBE7CAAF0233C /* Frameworks */,
+				0A11959DF94C0BEBE2E930338DD018EA /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		55E21501B04107C3012DC15BBBE14518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E480A68C0F17B3F4449C0D88DF992348 /* GoogleMaps */,
+				D27B7E207EAC48DD66DA8CB48CA8A01F /* KRActivityIndicatorView */,
+				5006667444B595E3DB591FA6F20E499A /* KRProgressHUD */,
+				24560CB8988EC58A7855E3F9E7E2E7B0 /* Siesta */,
+				E37B9B63F1BB5CF3B345E1B4F43895BB /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69B286927B2E903826005ADD28C93B79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8328396D720B22ED2DE20FD1F0F9118D /* Info.plist */,
+				4CA6132A41697DED8696583F246F590C /* Siesta.modulemap */,
+				26EF99C01DECBD1C87BC5FDE16BCB6BE /* Siesta.xcconfig */,
+				32F856BE858DC5AE356CDF5D810184B7 /* Siesta-dummy.m */,
+				BB6BC10EFF5AE7C5A3A69699855B5449 /* Siesta-prefix.pch */,
+				4C26708FC083C90DDEB0D1584B55A08F /* Siesta-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Siesta";
+			sourceTree = "<group>";
+		};
+		7D9C0169BD6FC93BA9A8820B1EE95280 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2031AC27D650A6DFC1DF7D70F22A5831 /* Info.plist */,
+				3C547B7DE30050473D23E9AA974E11F8 /* KRProgressHUD.modulemap */,
+				AC0713F520BEAC55550BF2FE44EE6D26 /* KRProgressHUD.xcconfig */,
+				A8F72F7737FFD35DE566DBDA2FE5833E /* KRProgressHUD-dummy.m */,
+				FEDD13421BE9ADF7328442048576D6B5 /* KRProgressHUD-prefix.pch */,
+				8366ADD7F749FA99E67E78750CA0EE6A /* KRProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRProgressHUD";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F8A33F762882C87A56A54C313D93ACC7 /* Frameworks */,
+				55E21501B04107C3012DC15BBBE14518 /* Pods */,
+				493E9BA99D68CB0E234689891E1E32EF /* Products */,
+				E1900811F02254BF7D6E327E5103D2AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8986F38C79B41B129BC227FE5D643762 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B74266FDFF7AD64EF33B5262203B318E /* Info.plist */,
+				1864BCE988E3CA399D6B4589F8C3783C /* KRActivityIndicatorView.modulemap */,
+				7D7FA189AB87A650C5524606074CDFB1 /* KRActivityIndicatorView.xcconfig */,
+				B4D309AA54A90688C0967936032B4778 /* KRActivityIndicatorView-dummy.m */,
+				08E9DA4CDA7F9A8AAB66FF34FC3301D1 /* KRActivityIndicatorView-prefix.pch */,
+				6A88CD06D7748602F5E464390FC5308B /* KRActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		8C49BC28CDB39BCD05CFBE7CAAF0233C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613A8BB443CAB3634247C4AC3614B72F /* GoogleMaps.framework */,
+				AA79B9DDAC8E5AFDE0C8FD0575692B43 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9376134681FAB36DE61F1C217A6BA640 /* Pods-PrivatBankATMs */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1DE2579644BE16CB5139859C4D7FC /* Info.plist */,
+				974970778846DE5CB778E842DD31120E /* Pods-PrivatBankATMs.modulemap */,
+				220F1772C0DAB8AB432889F6220642BA /* Pods-PrivatBankATMs-acknowledgements.markdown */,
+				0C72B77909DD8581C076A77FC769A5E9 /* Pods-PrivatBankATMs-acknowledgements.plist */,
+				D5AF17437F4B5D53F0919B30435470D8 /* Pods-PrivatBankATMs-dummy.m */,
+				D12CF14C61CA861C43634146024A97E8 /* Pods-PrivatBankATMs-frameworks.sh */,
+				AB07F347901A3D6E1F16BB2F468EC8B3 /* Pods-PrivatBankATMs-resources.sh */,
+				ADC489679FFC8FFD3219CB4C930B5ADC /* Pods-PrivatBankATMs-umbrella.h */,
+				0007C6A688DA4E0BA7578E24A04D70D7 /* Pods-PrivatBankATMs.debug.xcconfig */,
+				6CD4EE511859EA231337CC9468C17ACD /* Pods-PrivatBankATMs.release.xcconfig */,
+			);
+			name = "Pods-PrivatBankATMs";
+			path = "Target Support Files/Pods-PrivatBankATMs";
+			sourceTree = "<group>";
+		};
+		A3CE6A2F5681649045867575B3368492 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB2CC82697D48862B0F9C119F2E17E0 /* Info.plist */,
+				65CAAF297AD9ED223ED5673C82C4D5D2 /* SwiftyJSON.modulemap */,
+				453D6F2F6A7F51DCD827BD619C23D838 /* SwiftyJSON.xcconfig */,
+				F8FB8C9B4008D56183414EA1B44492C9 /* SwiftyJSON-dummy.m */,
+				9E2BD9D49DF1875BAC05D69E8ED0CE8C /* SwiftyJSON-prefix.pch */,
+				43472708383787A8D5B72B5A2107167E /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		CCD142B7CC469205579F1AAE55CC6F79 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8B22E6E5B1CB1EE8490F5BCAF6B3F /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D27B7E207EAC48DD66DA8CB48CA8A01F /* KRActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				D861F2EB1B64F34D49F35A5D8B0FD3DD /* KRActivityIndicatorPath.swift */,
+				9DF6AD4DC6D83A3FAE02578D52D5795B /* KRActivityIndicatorView.swift */,
+				0412D088E50755174B99734489F13596 /* KRActivityIndicatorViewStyle.swift */,
+				8986F38C79B41B129BC227FE5D643762 /* Support Files */,
+			);
+			path = KRActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		E1900811F02254BF7D6E327E5103D2AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9376134681FAB36DE61F1C217A6BA640 /* Pods-PrivatBankATMs */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E37B9B63F1BB5CF3B345E1B4F43895BB /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5C181CE8F9C2EA7EDE626C3C92340 /* SwiftyJSON.swift */,
+				A3CE6A2F5681649045867575B3368492 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		E480A68C0F17B3F4449C0D88DF992348 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				CCD142B7CC469205579F1AAE55CC6F79 /* Base */,
+				5018116F86B16BED82A5BC43C95F2C3F /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		F8A33F762882C87A56A54C313D93ACC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9393AB3FBFD695A606788AA2B416F3F1 /* KRActivityIndicatorView.framework */,
+				4E8C35F3FED3C386630C94ACB2116C69 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AFA402B133226718AABC6A165A55592 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7DBE3CBE4BB064DEE23907B7B7E55A /* KRActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC72787F0924F985D1BC22FC3C83640 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8600A8DAA6E262162E0E6DC916AFC6 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F915B1956E72C76862E6D937A96F4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A847202E2A5BC261D2CE0043B1428B23 /* Pods-PrivatBankATMs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65426A7AF8DE95F828B31CAB5FBB29A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B7F710203F03CF2AA5A099512C318E /* Siesta-umbrella.h in Headers */,
+				DFB24D72F153D53FF2F11CD647F04840 /* Siesta.h in Headers */,
+				A3B91071C49AEB60CF8A938BB3F1E9E6 /* SiestaUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E092AFF9BCF46FB343D47842F32BDF82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4BA74A59835882F643F9EB9279EABA /* KRProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		474B7191971196145AAECF7FDFD61B30 /* Pods-PrivatBankATMs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442ABA54BDC092D89DFF3DCB7472078B /* Build configuration list for PBXNativeTarget "Pods-PrivatBankATMs" */;
+			buildPhases = (
+				4BC35A7239B7329844F8D734756CACB9 /* Sources */,
+				D0C090CA465F69007F361E8B1F4B816A /* Frameworks */,
+				38F915B1956E72C76862E6D937A96F4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C80D5CDA26BAD50F411BC3D9C6043A7 /* PBXTargetDependency */,
+				F53E022D881CCB4801D70F2131B7CC4F /* PBXTargetDependency */,
+				05FDDEA621E9B94BCFD8CEDF0B8ADCD2 /* PBXTargetDependency */,
+				A78E5482738E597143100B5810AB058A /* PBXTargetDependency */,
+			);
+			name = "Pods-PrivatBankATMs";
+			productName = "Pods-PrivatBankATMs";
+			productReference = D7D51C5D044E1720616238EDC3A2CC52 /* Pods_PrivatBankATMs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B249C0B2794F97A7C4BB57DB137BE5F /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FF6D3EA7CAEFC35F03B1E43B1C232D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				EA61904B492E5740FDDAE2D322F7C081 /* Sources */,
+				DF8F10F8F53AAC16A8AA56F1F13623EB /* Frameworks */,
+				2EC72787F0924F985D1BC22FC3C83640 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = A9F93F356E403FA8AD60517C0A36B7B5 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C3A52C65199FE71240687AF4A7D248A /* Siesta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF17707976DB638DA32CA6CFB438BE3 /* Build configuration list for PBXNativeTarget "Siesta" */;
+			buildPhases = (
+				2EF9226F6732761300430449780728C1 /* Sources */,
+				7774E9FB6087C65098A1A4868EAD7F8E /* Frameworks */,
+				A65426A7AF8DE95F828B31CAB5FBB29A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Siesta;
+			productName = Siesta;
+			productReference = 58BCC8C70A2F8610D6C56EEBBCA76676 /* Siesta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C4AED8E7F0E8047550BDB01102B0913 /* KRActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F1F1A589ED4790C4D46DC5717F91FC /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */;
+			buildPhases = (
+				71DC190568DB15AFC054F114C935BE71 /* Sources */,
+				7D76057A3D5B2214266640A8F8B33EAA /* Frameworks */,
+				1AFA402B133226718AABC6A165A55592 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRActivityIndicatorView;
+			productName = KRActivityIndicatorView;
+			productReference = 249BC264F40B2BA4A05AAC3B72F8F9AC /* KRActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBF6426868E6CA9AA6D5A4C0BAF80A9F /* KRProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C23AB856556AFD2691D28CEFF31A82C /* Build configuration list for PBXNativeTarget "KRProgressHUD" */;
+			buildPhases = (
+				DFEE21EE042608CAA393249432D31441 /* Sources */,
+				64D4FB67F495F506C29A63AA80CCFB73 /* Frameworks */,
+				E092AFF9BCF46FB343D47842F32BDF82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31566DF63BB392C3D25A05CA11411B33 /* PBXTargetDependency */,
+			);
+			name = KRProgressHUD;
+			productName = KRProgressHUD;
+			productReference = 31A2DBFD4AFBEDD5BF38A0E9B164ED81 /* KRProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 493E9BA99D68CB0E234689891E1E32EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4AED8E7F0E8047550BDB01102B0913 /* KRActivityIndicatorView */,
+				DBF6426868E6CA9AA6D5A4C0BAF80A9F /* KRProgressHUD */,
+				474B7191971196145AAECF7FDFD61B30 /* Pods-PrivatBankATMs */,
+				6C3A52C65199FE71240687AF4A7D248A /* Siesta */,
+				5B249C0B2794F97A7C4BB57DB137BE5F /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF9226F6732761300430449780728C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70DA6843A07C52AC6B68B298DB337A6 /* ARC+Siesta.swift in Sources */,
+				6DAC151DE4CB814DE220BD09F1902E38 /* Collection+Siesta.swift in Sources */,
+				8A8638E19CFCB8E3D187E1C6B9C66B7B /* Configuration.swift in Sources */,
+				CF4573A9B7EDCE424FBF8314449C276B /* ConfigurationPatternConvertible.swift in Sources */,
+				C65355EC2FBE46B56DB836350350A5D0 /* DebugFormatting.swift in Sources */,
+				B58E77D5344991EDA7F5CDD3996D1A62 /* Entity.swift in Sources */,
+				DCE62488C7DA618A462A6EB4DB0366D1 /* EntityCache.swift in Sources */,
+				59C4B6262D9BE85D61EC6EEE540CECA2 /* GCD+Siesta.swift in Sources */,
+				37463D87504A0F65914C3447DE72C658 /* Logging.swift in Sources */,
+				A46B646D371F2EC47EB560DD93F64E7E /* Networking-URLSession.swift in Sources */,
+				D5CA077D3EA04BE01E4C2EEFB102F4E1 /* Networking.swift in Sources */,
+				D8A3CE3B899DAF436187267CE3488713 /* NetworkRequest.swift in Sources */,
+				39355C518AD779F42A30C5FFFDB0320E /* OpenEnum.swift in Sources */,
+				81972D0C86A120E879F04F7F0E0F3B88 /* PipelineConfiguration.swift in Sources */,
+				172DA84908656089B22C56F37FAC8E70 /* PipelineProcessing.swift in Sources */,
+				3D2C0BF4039E5C4A5C947453BCC15B34 /* Progress.swift in Sources */,
+				BA4BA1DEB25E386D4F12E8E4A2FBD9A1 /* ProgressTracker.swift in Sources */,
+				84D18B48A58A53A0F0F4D0A076CA584E /* Regex+Siesta.swift in Sources */,
+				BF9F5DD5575828A4F02E4C7F060DCDC8 /* Request.swift in Sources */,
+				65C36456AFF556AA76A3F54B2C98EBC5 /* RequestCallbacks.swift in Sources */,
+				225B814F7777061CCCB1DCB10B679029 /* RequestChaining.swift in Sources */,
+				A60A3A17C310CDF33A1180CA0F283F6F /* RequestCreation.swift in Sources */,
+				A9EDB87F0C461354354B7433612C071D /* RequestError.swift in Sources */,
+				3F35D6115B8D366C8103D09DF82D8CFE /* Resource.swift in Sources */,
+				A6CCD874ED3D0A3DC97A227A46C81E61 /* ResourceNavigation.swift in Sources */,
+				7F731F00C5990DF43434D9CB9132309F /* ResourceObserver.swift in Sources */,
+				D6DFF8373293B80838D65C7826631157 /* ResponseTransformer.swift in Sources */,
+				51F5BBCA4559BFFAD0A141F831D2C632 /* Service.swift in Sources */,
+				47D7506B602EF18455C3AA668CD51358 /* Siesta-dummy.m in Sources */,
+				1FFA7E272CB7BBB71AEF8028CB2A12C2 /* Siesta-ObjC.swift in Sources */,
+				35559892B3C7755EA77D81C3E8EC79E9 /* StandardTransformers.swift in Sources */,
+				6F5481D3F9C0E3A1E70319D9D5AFE25B /* String+Siesta.swift in Sources */,
+				B5CBD320A04D4B530796F4C90A3999E1 /* URL+Siesta.swift in Sources */,
+				C4A41D8C3CDA5230208D1142060DCD0F /* WeakCache.swift in Sources */,
+				0AFF9E0126464AB24A65912AEA861C79 /* Ω_Deprecations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC35A7239B7329844F8D734756CACB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736DFA50C05C748A05E3BCC77B72AF9F /* Pods-PrivatBankATMs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DC190568DB15AFC054F114C935BE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92664741D031D8278A316BA7EFC84446 /* KRActivityIndicatorPath.swift in Sources */,
+				03CA80A930C75EBEAB64BFA46BE61FD9 /* KRActivityIndicatorView-dummy.m in Sources */,
+				D392D371C9E6B7F543A80951F1B6F350 /* KRActivityIndicatorView.swift in Sources */,
+				EF31DEF966B6036D2D6C844979432D4D /* KRActivityIndicatorViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEE21EE042608CAA393249432D31441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FCCCA78904777BFE4E5F45CB7D106E /* InnerKRProgressHUD.swift in Sources */,
+				FD3DE89FA8246E14773FED5C88EAEE2E /* KRProgressHUD-dummy.m in Sources */,
+				70B88ED34C8324943F6064E4B1D55F83 /* KRProgressHUD.swift in Sources */,
+				2585E9CECBA937D94E07D3A0A798151D /* KRProgressHUDIconType.swift in Sources */,
+				5E8A4903CFE27D3BF77A3F74CE459700 /* KRProgressHUDViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA61904B492E5740FDDAE2D322F7C081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D825B1A65C6757D7912F664101FC64E /* SwiftyJSON-dummy.m in Sources */,
+				779FCE3D5B9EECAA018FA47B387ABAC3 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05FDDEA621E9B94BCFD8CEDF0B8ADCD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Siesta;
+			target = 6C3A52C65199FE71240687AF4A7D248A /* Siesta */;
+			targetProxy = 85AEAA2B51F3B5D3F68A88EEB02A8655 /* PBXContainerItemProxy */;
+		};
+		31566DF63BB392C3D25A05CA11411B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRActivityIndicatorView;
+			target = 9C4AED8E7F0E8047550BDB01102B0913 /* KRActivityIndicatorView */;
+			targetProxy = 6FBE22014D92753C04038D9522507DB0 /* PBXContainerItemProxy */;
+		};
+		3C80D5CDA26BAD50F411BC3D9C6043A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRActivityIndicatorView;
+			target = 9C4AED8E7F0E8047550BDB01102B0913 /* KRActivityIndicatorView */;
+			targetProxy = 37B8F088BA0427E640C660B9318647B8 /* PBXContainerItemProxy */;
+		};
+		A78E5482738E597143100B5810AB058A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 5B249C0B2794F97A7C4BB57DB137BE5F /* SwiftyJSON */;
+			targetProxy = 6B26EBCEDA05D936324BDD23EF867E1E /* PBXContainerItemProxy */;
+		};
+		F53E022D881CCB4801D70F2131B7CC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRProgressHUD;
+			target = DBF6426868E6CA9AA6D5A4C0BAF80A9F /* KRProgressHUD */;
+			targetProxy = 4D85F62F546A4C28AC18E01AEB8FFCF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007F3A5A5B6C1F7AF46ACFB0133C158B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453D6F2F6A7F51DCD827BD619C23D838 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27F2B38A2ED56CCC3EF5968E03B12B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0713F520BEAC55550BF2FE44EE6D26 /* KRProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KRProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28A7025832EE39DA41BB945EC6D39D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD4EE511859EA231337CC9468C17ACD /* Pods-PrivatBankATMs.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PrivatBankATMs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrivatBankATMs/Pods-PrivatBankATMs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PrivatBankATMs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31262507172CEBA0C21AAF70A41AC328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7FA189AB87A650C5524606074CDFB1 /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33EAD5A687485808DABEF48B6F0EF94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EF99C01DECBD1C87BC5FDE16BCB6BE /* Siesta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Siesta/Siesta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Siesta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Siesta/Siesta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Siesta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA2C40E0F2D6BF3CAC3F3AC122BC1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0007C6A688DA4E0BA7578E24A04D70D7 /* Pods-PrivatBankATMs.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PrivatBankATMs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrivatBankATMs/Pods-PrivatBankATMs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PrivatBankATMs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		684A3E3C0772E5719946CBD1DB03CB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EF99C01DECBD1C87BC5FDE16BCB6BE /* Siesta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Siesta/Siesta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Siesta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Siesta/Siesta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Siesta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78EDC232B2EB0D14D05CAC508A813BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0713F520BEAC55550BF2FE44EE6D26 /* KRProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KRProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6349C6241FB21F915B82E68C573F59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7FA189AB87A650C5524606074CDFB1 /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E6339F9F3250B46A6C149869E07DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453D6F2F6A7F51DCD827BD619C23D838 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FF6D3EA7CAEFC35F03B1E43B1C232D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6339F9F3250B46A6C149869E07DC4 /* Debug */,
+				007F3A5A5B6C1F7AF46ACFB0133C158B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF17707976DB638DA32CA6CFB438BE3 /* Build configuration list for PBXNativeTarget "Siesta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684A3E3C0772E5719946CBD1DB03CB7C /* Debug */,
+				33EAD5A687485808DABEF48B6F0EF94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442ABA54BDC092D89DFF3DCB7472078B /* Build configuration list for PBXNativeTarget "Pods-PrivatBankATMs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA2C40E0F2D6BF3CAC3F3AC122BC1E1 /* Debug */,
+				28A7025832EE39DA41BB945EC6D39D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C23AB856556AFD2691D28CEFF31A82C /* Build configuration list for PBXNativeTarget "KRProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EDC232B2EB0D14D05CAC508A813BB6 /* Debug */,
+				27F2B38A2ED56CCC3EF5968E03B12B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F1F1A589ED4790C4D46DC5717F91FC /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6349C6241FB21F915B82E68C573F59A /* Debug */,
+				31262507172CEBA0C21AAF70A41AC328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
